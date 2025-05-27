@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alice's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/homebutton.jpg" alt="Alice Lei logo" style="height:70px; width:70;">
+                </a>
+                <p style="font-size: 0.8em;">^this image brings you back up</p>
+            </div>
+                <ul class="nav-links">
+                    <li><a href="#me">me</a></li>
+                    <li><a href="#research">research</a></li>
+                    <li><a href="#make">make</a></li>
+                    <li><a href="#write">write</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/homebutton.jpg" alt="Alice Lei logo" style="height:70px; width:70;">
+                </a>
+            </div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#me" onclick="toggleMenu()">me</a></li>
+                    <li><a href="#research" onclick="toggleMenu()">research</a></li>
+                    <li><a href="#make" onclick="toggleMenu()">make</a></li>
+                    <li><a href="#write" onclick="toggleMenu()">write</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/alicewebpic.jpg" alt="Alice Lei profile picture" />
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">hi i'm</p>
+                <h1 class="title">alice lei!</h1>
+                <p class="section__text__p2"></p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" 
+                    onclick="window.open('./assets/leicv.pdf')">
+                    download my cv!
+                    </button>
+                </div>
+                <div id="socials-container">
+                    <a href="https://www.linkedin.com/in/alice-lei-309815366/" target="_blank">linkedin</a>
+                    <a href="https://www.instagram.com/asiangirlfilmlover" target="_blank">instagram</a>
+                    <a href="https://substack.com/@theresnothingmore" target="_blank">substack</a>
+                </div>
+            </div>
+        </section>
+        <section id="me">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/homebutton.jpg" alt="Alice Lei logo" style="height:70px; width:70;">
+                </a>
+            </div>
+            <p class="section__text__p1">who am i</p>
+            <h1 class="title">??!</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src ="./assets/aboutalice.gif" 
+                        alt="Profile picture"
+                        class="about-pic"
+                        style="width:auto; height:480px;"
+                    />
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <h3 style="color: white;">雷岸汀</h3>
+                            <p style="color: white;">polisci and peace studies @notre dame <br>fav film: <em>la chimera</em> <br>reading: <em>on the road</em> <br>listening: mf doom</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img 
+                src="./assets/arrowdown.png" 
+                alt="Arrow icon" 
+                class="icon arrow"
+                onclick="location.href='./#research'"
+                style="width:70px; height:auto;"
+            />
+        </section>
+        <section id="research">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/homebutton.jpg" alt="Alice Lei logo" style="height:70px; width:70;">
+                </a>
+            </div>
+            <p class="section__text__p1">my research</p>
+            <h1 class="title"></h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">kellogg institute for international studies scholar</h2>
+                        <p class="experience-description">
+                            research assistant for <a href="https://politicalscience.nd.edu/people/ernesto-verdeja/" target="_blank">prof ernesto verdeja</a> in genocide and mass atrocity prevention. currently working on an assessment of UN bureaucracy.
+                            <br>
+                            <a href="https://kellogg.nd.edu/alice-lei" target="_blank">learn more here</a>
+                        </p>
+                        <br>
+                        <h2 class="experience-sub-title-2">mcneill common good fellow </h2>
+                        <p class="experience-description-2">
+                            summer 2024: granada, spain and xinjiang, china for a comparative study of different settler colonial societies. a continuation of my experience in palestine in 2023. <a href="https://www.dialogoglobal.com/" target="_blank">decolonizing knowledge and power class</a> in barcelona with ruthie gilmore, linda alcoff, ramón grosfoguel, and nelson maldonado-torres.
+                            <br>
+                            summer 2025: <a href="https://www.dialogoglobal.com/" target="_blank">critical muslim studies class</a> in granada, spain. on a $6,000 grant provided by the <a href="https://socialconcerns.nd.edu/" target="_blank">institute for social concerns</a>, traveling europe, working on senior thesis, and preparing for phd.
+                        </p>
+                        <br>
+                        <h2 class="experience-sub-title-3">notre dame democracy fellow</h2>
+                        <p class="experience-description-3">senior thesis on university crackdowns and the targeting of institutions for knowledge production. advisors: profs <a href="https://politicalscience.nd.edu/people/sebastian-rosato/" target="_blank">sebastian rosato</a> and <a href="https://keough.nd.edu/about/faculty-staff-directory/atalia-omer/" target="_blank">atalia omer</a>.</p>
+                        <br>
+                        <h2 class="experience-sub-title-4">decolonizing the university</h2>
+                        <p class="experience-description-4">producing a piece on how to decolonize the university, with support from <a href="https://sites.nd.edu/accomplice-project/" target="_blank">accomplice</a> and <a href="https://africana.nd.edu/people/bernard-forjwuor/" target="_blank">prof bernard forjwuor</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <img 
+                src="./assets/arrowdown.png" 
+                alt="Arrow icon" 
+                class="icon arrow"
+                onclick="location.href='./#make'"
+                style="width:70px; height:auto;"
+            />
+        </section>
+        <section id="make">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/homebutton.jpg" alt="Alice Lei logo" style="height:70px; width:70;">
+                </a>
+            </div>
+            <p class="section__text__p1">my films/video art/etc.</p>
+            <div class="experience-details-container">
+               <div class="details-container color-container">
+                    <div class="article-container-left">
+                        <br>
+                        <p>bālèsītǎn (2023)</p>
+                        <iframe width="400" height="225" src="https://www.youtube.com/embed/dT4vZCUbzA8" title="Bālèsītǎn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p></p>
+                    </div>
+                    <div class="article-container-right">
+                        <br>
+                        <p>coke kid (2023)</p>
+                        <iframe width="400" height="225" src="https://www.youtube.com/embed/abySwYgK84g" title="Coke Kid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p></p>
+                    </div>
+                    <div class="article-container-left">
+                        <br>
+                        <p>de anima (2023)</p>
+                        <iframe width="400" height="225" src="https://www.youtube.com/embed/9LZ3SR44dZk" title="De Anima" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p></p>
+                    </div>
+                    <div class="article-container-right">
+                        <br>
+                        <p>domestock (2023)</p>
+                        <iframe width="400" height="225" src="https://www.youtube.com/embed/ZjfK5N4irAg" title="Domestock" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p style="font-size: 0.7em;">*a lil music festival i organize every year</p>
+                    </div>
+                    <div class="article-container-left">
+                        <br>
+                        <p>you need god (2024)</p>
+                        <iframe width="400" height="225" src="https://www.youtube.com/embed/LPLvYsLywMg" title="You Need God" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p></p>
+                    </div>
+                    <div class="article-container-right">
+                        <br>
+                        <p>girls (2025)</p>
+                        <iframe width="400" height="225" src="https://www.youtube.com/embed/-LBUcwrULEk" title="Girls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p></p>
+                    </div>
+                    <div class="article-container-left">
+                        <br>
+                        <p>cyprus (2025)</p>
+                        <iframe width="400" height="225" src="https://www.youtube.com/embed/msso7XObeQ8" title="Cyprus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p></p>
+                    </div>
+                    <div class="article-container-right">
+                        <br>
+                        <p>on american imperialism (2025)</p>
+                        <iframe width="400" height="225" src="https://www.youtube.com/embed/lIX4nHgKlNo" title="On American Imperialism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p></p>
+                    </div>
+                    <div class="article-container-left">
+                        <br>
+                        <p>if i must die: a homage to refaat alareer - VR (2025)</p>
+                        <iframe width="400" height="225" src="https://www.youtube.com/embed/Hdmys2tfft0" title="If I Must Die: A Homage to Refaat Alareer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p></p>
+                    </div>
+                    <div class="article-container-right">
+                        <br>
+                        <p>palestine art installation (2025)</p>
+                        <img src="./assets/artinstallpic.JPG" alt="Art Installation" width="400">
+                        <video controls width="400">
+                            <source src="./assets/artinstall.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p style="font-size: 0.7em;">*an interactive art installation i set up on notre dame campus, featuring various student artists</p>
+                    </div>
+                    <div class="article-container-left">
+                        <br>
+                        <p>what is intimacy? (coming soon)</p>
+                        <p></p>
+                        <br>
+                        <p>hong kong is a leftist's playground (coming soon)</p>
+                        <p></p>
+                        <br>
+                    </div>
+               </div> 
+            </div>
+            <img 
+                src="./assets/arrowdown.png" 
+                alt="Arrow icon" 
+                class="icon arrow"
+                onclick="location.href='./#write'"
+                style="width:70px; height:auto;"
+            />
+        </section>
+        <section id="write">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/homebutton.jpg" alt="Alice Lei logo" style="height:70px; width:70;">
+                </a>
+            </div>
+            <p class="section__text__p1">my writing</p>
+            <h1 class="title"></h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <p>i co-founded/run an alternative publication at notre dame called <em>the irish radical</em>. check out my poetry, articles, jail experience story <a href="https://irishradicalnd.com/author/alice-lei/" target="_blank">here</a> <br>٩(^ᗜ^ )و´- </p>
+                        <br>
+                        <p>zines i helped make:</p>
+                        <img src="./assets/zine1.jpeg" alt="Zine 1" style="width:200px; height:auto;">
+                        <p>viva palestina! / south bend / 2024</p>
+                        <img src="./assets/zine2.jpeg" alt="Zine 2" style="width:200px; height:auto;">
+                        <p>from the river to the sea / hong kong / 2024</p>
+                        <img src="./assets/zine3.jpeg" alt="Zine 3" style="width:200px; height:auto;">
+                        <p>one struggle! / south bend / 2025</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bottom-nav">
+            <img src="./assets/jamesbaldwin.JPG" alt="James Baldwin"
+            onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            <p style="text-align: center;">click on this to go to top! ^</p>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
