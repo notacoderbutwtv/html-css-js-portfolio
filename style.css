@@ -346,10 +346,22 @@ section {
   margin-left: auto;      /* Pushes the container to the right if parent is flex/grid */
 }
 
-.article-container-center {
+.video-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
   color: orangered;
   font-weight: bold;
-  text-align: center;      /* Aligns text and inline elements to the center */
+}
+
+.video-item {
+  width: 30%;
+}
+
+.video-item iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
 }
 
 /* WRITE SECTION */
