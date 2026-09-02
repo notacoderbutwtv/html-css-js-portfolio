@@ -351,8 +351,6 @@ section {
   justify-content: space-between;
   align-items: flex-start;
   gap: 2rem;
-  color: orangered;
-  font-weight: bold;
 }
 
 .video-item {
