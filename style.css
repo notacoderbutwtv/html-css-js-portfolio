@@ -346,6 +346,12 @@ section {
   margin-left: auto;      /* Pushes the container to the right if parent is flex/grid */
 }
 
+.article-container-center {
+  color: orangered;
+  font-weight: bold;
+  text-align: center;      /* Aligns text and inline elements to the center */
+}
+
 /* WRITE SECTION */
 
 #write {
